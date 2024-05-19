@@ -26,4 +26,6 @@ Introduction
             - To analyze system properties & processes
             - To troubleshoot users, applications & hardware issues
 
-    
+
+- To pass the certification exam
+    - Must score at least 720 (roughly 80%) out of 900 possible points
