@@ -1,0 +1,29 @@
+Introduction
+------------
+- The XKO-005 exam focuses on 4 (four) domain / areas of knowledge
+    - System Management (32%)
+        - Focuses on configuring
+            - Configuring kernel modules
+            - Configuring network parameters
+            - Configuring software & services
+            - Managing files & directories
+            - Configuring storage devices
+    
+    - Security (21%)
+        - Focuses on best practices on
+            - Permission & authentication
+            - Firewalls and file management
+
+    - Scripting, Containers & Automation (19%)
+        - Focuses on the ability
+            - To execute basic batch scripts
+            - Conduct version control using git
+            - Understand cloud and virtualization technologies
+            - How to implement orchestration on systems & networks
+             
+    - Troubleshooting (28%)
+        - Focuses on the ability
+            - To analyze system properties & processes
+            - To troubleshoot users, applications & hardware issues
+
+    
