@@ -1,2 +1,23 @@
-Exam Tips
----------
+Exam Tips & Tricks
+------------------
+1. There will be NO trick questions
+    - Every question is precisely worded 
+    - Re-read each question multiple times to better understand the question being asked
+    - Be on the lookout for distractors / red-herrings
+        - Generally, there is at least 1 (one)
+        - Identify and eliminate it as a possibility
+
+2. Pay close attention to the words in bold, italics or all uppercase
+    -  Those key words are VERY important to consider
+
+3. Answer the question based on CompTIA Linux+ knowledge
+    - From the official CompTIA Linux+ student textbook
+    - NOT from your personal workplace experience
+    - ALWAYS choose the "book" answer / terminologies
+
+4. Understand the key concepts of the test questions 
+
+5. Do NOT memorize the terms word for word, instead try to understand them
+    - Understand when a particular tool will be useful on what situation
+
+NOTE: During the exam, the answers will be from multiple-choice style of questions
