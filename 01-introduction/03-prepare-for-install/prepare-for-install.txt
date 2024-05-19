@@ -1,0 +1,111 @@
+Prepare For Install
+-------------------
+- Requirements for Linux will vary based upon a number of different factors
+    - Linux distribution to use
+        - Each distro have different recommendations & baseline requirements
+    
+    - Hardware compatibility
+        - Dependent on the chosen Linux distro to install & use
+        - Dependent on the category of the system being built
+            - Each system have different components to meet its operational needs
+
+    - Intended system function
+        - Identify the intended function of the Linux system being built
+        - Each function has its own requirements that needs to be met to operate properly 
+
+
+- Before installation, plan an appropriate partitioning strategy for the hard drive
+    - Servers have different storage needs than individual workstations
+
+    - If the root of the filesystem gets filled up, the system is likely to crash
+
+    - User home directories and log files can unexpectedly increase in size rapidly
+        - Isolating these directories to their own partitions can prevent a server crash
+
+
+- Linux uses a dedicated partition for virtual memory storage called the "swap space"
+    - It is important to plan the swap partition 
+    
+    - General guideline for swap space
+        - It should be twice the size of the installed RAM 
+        - e.g. 16GB of RAM = 32GB of swap space
+
+
+- Prepare the filesystem for storing the Linux software
+    - At least have 1 (one) filesystem known as the root file system
+
+    - NOTE: Storing all files under the root file system under 1 (one) partition
+        - If the filesystem becomes damage, all of the files will be lost in one fell swoop
+
+        - This is a good reason for partitioning out things
+            - Into multiple filesystems and multiple partitions
+
+- Allocate more than 1 (one) filesystem and partitions
+
+
+- Backup all of the filesystems and partitions on a regular basis
+
+
+- Before purchasing any hardware component
+    - Check the compatibility with the relevant Linux distribution
+        - Specifically the HCL (Hardware Compatibility List)
+        - It stores all hardware devices that a distro supports in some capacity
+        - Each distro maintain its own HCL online
+
+    - NOT all hardware will work on every Linux system
+
+    - Storage system
+        - Check how many devices can be installed
+        - Supported technology interface, controller and capacity
+    
+    - CPU
+        - Check the server desktop market
+        - Check the clockrate, cache size and hyper-threading support
+
+    - Memory
+        - Check how much RAM is installed on the system
+        - Supported DDR SD-RAM generation
+
+    - Network card
+        - Know the maximum bandwidth and network technologies it supports
+        - e.g. Ethernet, Wi-Fi or more
+        - Common source of problem
+            - Most network cards rely on Windows OS system drivers to function
+
+    - Input devices
+        - Check the mouse, keyboard and USB support
+
+    - Monitors
+        - Check connection interface it supports
+        - Check refresh rate range and maximum supported pixel resolution
+        - Without a supported driver = lower resolution
+
+    - Display adapter
+        - Know the chipset, video RAM & connection interfaces integrated into the CPU
+        - Determine if it is using a integrated chipset or discrete video card
+        - Need to find the appropriate graphical drivers
+
+
+- Different boot methods in installing Linux
+    - Removable media
+        - CD, DVD or USB thumb drive
+         
+    - ISO
+        - Install from a local drive where the distro ISO file is downloaded 
+        - Popular method for installing on a virtual machine
+
+    - PXE and NFS
+        - Boot from installation media over the network (PXE)
+            - Requires to have a file server that on the network
+            - Grabs the installation files from the file server to install  to the local workstation
+
+
+- Consider the following factors PRIOR to installing Linux
+    - Cost
+    - System role
+    - Linux distribution 
+    - Partition strategies
+    - Verify that the hardware is supported in the Hardware Compatibility List (HCL)
+
+    - Doing so help prevent a lot of issues down the road
+        - Minimize troubleshooting 
