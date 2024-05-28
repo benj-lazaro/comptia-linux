@@ -1,5 +1,5 @@
 # Linux Notebook
-Personal Linux notebook
+Linux study notes
 
 ## What is it?
-A living notebook for the purpose of keeping general knowledge of the Linux OS fresh.
+A living notebook for the purpose of keeping general Linux OS knowledge fresh
