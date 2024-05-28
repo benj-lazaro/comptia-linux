@@ -1,5 +1,5 @@
-# Linux Notes
-Personal Linux notes
+# Linux Notebook
+Personal Linux notebook
 
 ## What is it?
-Study notes to keep general knowledge on Linux fresh and inspired from LPIC-1 and CompTIA Linux+ certification exams
+A living notebook for the purpose of keeping general knowledge of the Linux OS fresh.
